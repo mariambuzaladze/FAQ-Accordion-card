@@ -13,9 +13,44 @@ body {
 }
 
 .container {
+  background-image: url(./images/bg-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top;
   background-color: white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 40px;
+}
+
+.woman {
+  width: 237px;
+  height: 180px;
+  margin-top: -107px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 38px;
+}
+
+h1 {
+  color: #1e1f36;
+}
+
+.question-div {
+  width: 279px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question {
+  font-size: 13px;
+  color: #4b4c5f;
 }
