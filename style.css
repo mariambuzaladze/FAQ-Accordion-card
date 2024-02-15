@@ -92,6 +92,19 @@ h1 {
   color: #787887;
 }
 
+.active .answer {
+  display: block;
+}
+
+.active .arrow-down {
+  transform: rotate(180deg);
+}
+
+.active .question {
+  color: #1e1f36;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 1440px) {
   .container {
     width: 920px;
